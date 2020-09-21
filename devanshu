@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+int a = 3, b = 6;
+printf("before a=%d b =%d",a,b);
+a = a+b;
+b = b-a;
+a = a-b;
+printf("\nafter a=%d b =%d",a,b);
+return 0 ;
+}
